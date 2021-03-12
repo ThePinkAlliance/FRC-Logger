@@ -4,6 +4,6 @@ public class Csv extends Filemanger {
   }
 
   public void LogWithTime(Object data) {
-    this.Write(java.time.LocalTime.now().toString() + data);
+    this.Write(java.time.LocalTime.now().toString() + "," + data + "\n");
   }
 }

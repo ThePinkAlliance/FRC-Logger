@@ -51,7 +51,6 @@ public abstract class Filemanger {
   public void Write(Object Data) {
     try {
       bw.write(String.valueOf(Data));
-      bw.newLine();
     } catch (IOException err) {
       throw new Error(err);
     }
