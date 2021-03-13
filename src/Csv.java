@@ -1,6 +1,6 @@
 public class Csv extends Filemanger {
-  public String CompressedRows;
-  public Boolean InitalWrite = false;
+  private String CompressedRows;
+  private Boolean InitalWrite = false;
 
   public Csv(String filename, String[] rows) {
     super(filename);
