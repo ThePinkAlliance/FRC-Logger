@@ -2,9 +2,9 @@
 public class FRCLogger extends Filemanger {
   public Csv csv;
 
-  public FRCLogger(String file) {
+  public FRCLogger(String file, String[] rows) {
     super(file);
 
-    csv = new Csv(file);
+    csv = new Csv(file, rows);
   }
 }
